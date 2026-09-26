@@ -1,3 +1,2 @@
-# Höhenbergsteigen V8
-Kompletter statischer Stand. index.html + styles.css + assets ins Repository legen.
-V8: kompakte Chronik, viele Zwischenstationen, sichtbare Stationskreise, unregelmässige Kartenroute, Pik-Lenin-Fotogruppe.
+# Höhenbergsteigen V9
+Desktop editorial reconstruction based on the approved expedition-journal mockup. Static HTML/CSS, no build step. Upload contents to GitHub/Render.
