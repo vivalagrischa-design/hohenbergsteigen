@@ -1,2 +1,0 @@
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("on")}),{threshold:.12});document.querySelectorAll(".reveal").forEach(e=>io.observe(e));
-const menu=document.querySelector(".menu"),nav=document.querySelector(".nav nav");menu?.addEventListener("click",()=>{nav.style.display=nav.style.display==="flex"?"none":"flex";if(nav.style.display==="flex"){Object.assign(nav.style,{position:"absolute",top:"66px",right:"4vw",background:"#0b1117",padding:"22px",flexDirection:"column"})}});
