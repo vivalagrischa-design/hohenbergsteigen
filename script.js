@@ -1,0 +1,2 @@
+const route=document.querySelector('.route path');
+if(route){const len=route.getTotalLength();route.style.strokeDasharray=len;route.style.strokeDashoffset=len;const draw=()=>{const book=document.querySelector('.book');const r=book.getBoundingClientRect();const p=Math.max(0,Math.min(1,(innerHeight-r.top)/(r.height+innerHeight*.3)));route.style.strokeDashoffset=len*(1-p)};addEventListener('scroll',draw,{passive:true});addEventListener('resize',draw);draw();}
