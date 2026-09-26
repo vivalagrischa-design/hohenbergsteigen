@@ -1,1 +1,0 @@
-const menu=document.querySelector('.menu'),nav=document.querySelector('.nav nav');menu?.addEventListener('click',()=>{nav.style.display=nav.style.display==='flex'?'none':'flex';if(nav.style.display==='flex'){Object.assign(nav.style,{position:'absolute',top:'64px',left:'0',right:'0',padding:'24px',background:'#06141e',flexDirection:'column'})}});
