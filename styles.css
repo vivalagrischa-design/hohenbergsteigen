@@ -194,3 +194,16 @@
   .impact-visual{height:auto;min-height:0;display:flex;justify-content:center;overflow:visible}
   .impact-visual img{width:100%;height:auto;max-height:560px;object-fit:contain;object-position:center}
 }
+
+/* V18.3: exakt zwei Zeilen auf Desktop und Mobil */
+.statement-line,.flag-line{display:block;white-space:nowrap}
+.statement h2{font-size:clamp(31px,5.6vw,84px)}
+.flag-story-head h2{font-size:clamp(29px,4.35vw,66px)}
+@media(max-width:700px){
+ .statement h2{font-size:clamp(29px,7.5vw,52px);letter-spacing:-.075em}
+ .flag-story-head h2{font-size:clamp(25px,6.3vw,43px);letter-spacing:-.06em}
+}
+@media(max-width:370px){
+ .statement h2{font-size:7vw}
+ .flag-story-head h2{font-size:5.8vw}
+}
